@@ -11,8 +11,11 @@ namespace LineComparison
             //CartesianSystem cart = new CartesianSystem();
             //cart.Length();
 
-            CheckEqulity check=new CheckEqulity();
-            check.CheckEqulityOfLine();
+            //CheckEqulity check=new CheckEqulity();
+            //check.CheckEqulityOfLine();
+
+            GraterOrLess gl=new GraterOrLess();
+            gl.GraterOrLessThen();
 
         }
     }
