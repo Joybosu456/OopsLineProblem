@@ -8,8 +8,12 @@ namespace LineComparison
         {
             //Console.WriteLine("Welcome to Line Comparison Problem");
 
-            CartesianSystem cart = new CartesianSystem();
-            cart.Length();
+            //CartesianSystem cart = new CartesianSystem();
+            //cart.Length();
+
+            CheckEqulity check=new CheckEqulity();
+            check.CheckEqulityOfLine();
+
         }
     }
 }
