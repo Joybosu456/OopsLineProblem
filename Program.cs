@@ -14,8 +14,11 @@ namespace LineComparison
             //CheckEqulity check=new CheckEqulity();
             //check.CheckEqulityOfLine();
 
-            GraterOrLess gl=new GraterOrLess();
-            gl.GraterOrLessThen();
+            //GraterOrLess gl=new GraterOrLess();
+            //gl.GraterOrLessThen();
+
+            EqualsLine eq=new EqualsLine();
+            eq.CheckEqulityOfLine();
 
         }
     }
